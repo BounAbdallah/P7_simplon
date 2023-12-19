@@ -1,0 +1,360 @@
+:root {
+    --main-background-color: rgb(255, 255, 255);
+    --nav-bar-background-color: rgb(206, 0, 51);
+    --like-comment-background-color: rgb(240, 232, 232);
+    /* Ajoutez d'autres variables si nécessaire */
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+/* Styles généraux */
+body {
+   
+    background:rgb(255, 255, 255);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Styles de la barre de navigation */
+.nav-bar {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--nav-bar-background-color);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.lien-page a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Styles de la liste */
+li {
+    list-style-type: none;
+}
+
+/* Styles des liens de la page */
+.lien-page ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lien-page li {
+    margin-left: 50px;
+}
+
+/* Styles du logo */
+.logo img {
+    width: 65%;
+}
+
+/* Styles de l'image de publication */
+.publier-par img {
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+.texte-ajout p{
+    font-size: 16px;
+    color: rgb(206, 0, 51);
+    display:flex;
+    vertical-align: middle;
+    
+}
+.texte-ajout p svg{
+    display:flex;
+    margin-right: 8px;
+    
+}
+.publier-par {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+/* Styles de la section du site */
+.section-du-site {
+    display: flex;
+    justify-content: space-evenly;
+}
+.setion-actualies{
+    padding-left: 8px;
+    background: #ffffff;
+}
+
+/* Styles de l'image publiée */
+.image-pulier {
+    
+}
+
+/* Styles de la publication */
+.publication {
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    margin-top: 30px;
+    padding-top: 10px;
+    background: #ffffff;
+    width: 650px;
+}
+
+/* Styles des boutons J'aime et Commentaire */
+.boutons-like-comment {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--like-comment-background-color);
+}
+
+/* Styles du menu latéral */
+.bar-menu {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background:#575757;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 20%;
+    height: 300px;
+}
+.bar-menu ul{
+    align-items: center;
+}
+
+/* Styles de la section suggestion */
+.section-suggestion .profile {
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+    width: 50px;
+    height: 400px;
+    background: #ffffff;
+    border: 3px solid gainsboro;
+    box-shadow: 08px 08px 8px 0px gainsboro;
+
+}
+.section-suggestion{
+
+}
+/* Styles de l'utilisateur qui publie */
+.publier-par-user img {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 70px;
+    border-radius: 50%;
+}
+.txt p{
+    font-size: 12px;
+    color: grey;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.publier-par-user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* Styles des boutons */
+.btn {
+    padding-left: 20px;
+    display: flex;
+    border: 3px solid white;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* Styles des boutons au survol */
+.btn:hover {
+    border: 2px solid #d2070771;
+    color: rgb(206, 0, 51);
+    background: #ffffff;
+}
+.user_suggest:hover{
+    border: 2px solid #d2070771;
+    color: rgb(206, 0, 51);
+    background: #ffffff;
+}
+/* Styles de l'image et du nom de profil */
+.profil-img-name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil-img-name img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Styles des suggestions d'utilisateur */
+.user_suggest {
+    margin-top: 10px;
+    border: 4px solid #DBDBDB;
+    border-radius: 6px;
+}
+
+
+/* setion-actualies */
+.description {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image-pulier{
+    width: 100%;
+}
+
+.boutons-like-comment{
+    border-top: solide 1px #DBDBDB;
+    background: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #DBDBDB;
+    border: 2px solid #DBDBDB;
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 0, 51);
+
+}
+
+.like a{
+    text-decoration: none;
+    color: #DBDBDB;
+    display: inline-block;
+  
+}
+.like{
+    vertical-align: middle;
+}
+.like a{
+    margin-bottom: 8px;    
+}
+.commentaire{
+    vertical-align: middle;
+}
+.commentaire a{
+    text-decoration: none;
+    color: #DBDBDB;
+    display: inline-block;
+    vertical-align: middle;
+}
+.like::before,
+.commentaire::before{
+    justify-content: center center;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajoutez des styles spécifiques pour les écrans mobiles ici */
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lien-page ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lien-page li {
+        margin: 1rem 0;
+    }
+
+    .section-suggestion {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .user_suggest {
+        width: 100%;
+    }
+
+    .bar-menu,
+    .section-suggestion .profile {
+        width: 100%;
+        max-width: none;
+    }
+
+    .section-du-site {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .publication {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* Ajoutez des styles spécifiques pour les écrans mobiles ici */
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lien-page ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lien-page li {
+        margin: 1rem 0;
+    }
+
+    .section-suggestion {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .user_suggest {
+        width: 100%;
+    }
+
+    .bar-menu,
+    .section-suggestion .profile {
+        width: 100%;
+        max-width: none;
+    }
+
+    .section-du-site {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .publication {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
